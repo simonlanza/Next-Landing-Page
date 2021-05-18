@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <header>
         <div class="text-white bg-black h-auto p-20 font-serif">
-          <p class="text-fluoyellow font-semibold p-4 flex justify-start text-left">La mejor opcion de hoy en Landing Pages</p>
+          <p class="text-fluoyellow font-semibold p-4 flex justify-center text-center">La mejor opcion de hoy en Landing Pages</p>
           <h1 class="text-5xl font-extrabold p-4 flex justify-center text-center" >Flexible y rapido para tu empresa</h1>
           <p class="p-2 flex justify-center text-center">Somos un equipo chico de programadores que nos especializamos en crear Landing Pages dinamicas, completas e informativas.</p>
           <p class="p-2 flex justify-center text-center">Cree su Landing Page ahora y comienze a ver resultados</p>
@@ -51,22 +51,22 @@ export default function Home() {
           </p>
         </div>
         <div class="text-black bg-grey h-auto p-16 font-serif">
-          <p class="text-blue italic text-lg p-3">La nueva forma</p>
+          <p class="text-blue italic text-lg p-3 flex justify-center">La nueva forma</p>
           <h2 class="flex justify-center text-center text-4xl font-semibold p-3">Cree su pagina perzonalizada al 100% con nosotros</h2>
           <p class="text-lg p-3 italic flex justify-center text-center">Ya no necesita ni una empresa gigante, ni miles de dolares para crearla.</p>
           <p class="text-lg p-3 italic flex justify-center text-center">Es hora de buscar nuevas alternativas, un nuevo futuro.</p>
         </div>
         <div class="text-white bg-black h-auto p-20 font-serif">
-          <p class="text-fluoyellow text p-3 text-lg">El mundo cambia</p>
+          <p class="text-fluoyellow text p-3 text-lg flex justify-center">El mundo cambia</p>
           <h2 class="font-semibold text-4xl flex items-center text-center p-3">Que tu empresa o emprendimiento no se quede atras</h2>
           <div class="grid grid-cols-1 grid-rows-auto  p-8 mt-16 tablet:grid-cols-2">
               <p class="text-5xl text-center">
                 10.000+
-                <p class="text-lg max-w-sm">Empresas o emprendimientos usan una pagina web profesional en Bs As.</p>
+                <p class="text-lg text-center">Empresas o emprendimientos usan una pagina web profesional en Bs As.</p>
               </p>
               <p class="text-5xl text-center">
                 37%
-                <p class="text-lg max-w-sm">Incrementan las visitas, interacciones o ventas  luego de cambiar una pagina rustica por una  atractiva</p>
+                <p class="text-lg text-center">Incrementan las visitas, interacciones o ventas  luego de cambiar una pagina rustica por una  atractiva</p>
               </p>
               <div class="justify-center tablet:col-span-2">
                 <img class="w-screen" src="/mundo2.jpg"/>

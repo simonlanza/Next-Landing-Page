@@ -14,6 +14,15 @@ module.exports = {
       'black': '#000000',
       'grey': '#DCDCDC',
     },
+    screens: {
+      'phone': '550px',
+
+      'tablet': '600px',
+
+      'laptop': '1024px',
+
+      'desktop': '1280px',
+    },
     extend: {},
   },
   variants: {

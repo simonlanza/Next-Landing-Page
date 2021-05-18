@@ -24,7 +24,7 @@ export default function Home() {
         </div>
       </header>
       <body>
-        <div class="text-black bg-white h-auto p-5 font-serif grid grid-cols-2 grid-rows-3 h-64">
+        <div class="text-black bg-white h-auto p-5 font-serif grid grid-cols-1 grid-rows-3 h-64 phone:grid-cols-2">
           <p class="p-3 text-4xl flex justify-center" >
             HTML 5
             <img class="w-12 h-14 mx-3" src="/html5.png"></img>
@@ -59,16 +59,16 @@ export default function Home() {
         <div class="text-white bg-black h-auto p-20 font-serif">
           <p class="text-fluoyellow text p-3 text-lg">El mundo cambia</p>
           <h2 class="font-semibold text-4xl flex items-center text-center">Que tu empresa o emprendimiento no se quede atras</h2>
-          <div class="grid grid-cols-2 p-8 mt-16">
-              <h3 class="text-5xl z-10">
-                100.000+
-                <p class="text-lg max-w-sm z-10">Empresas o emprendimientos usan una pagina web profesional</p>
-              </h3>
-              <h3 class="text-5xl z-10">
+          <div class="grid grid-cols-1 grid-rows-auto  p-8 mt-16 tablet:grid-cols-2">
+              <p class="text-5xl">
+                10.000+
+                <p class="text-lg max-w-sm">Empresas o emprendimientos usan una pagina web profesional en Bs As.</p>
+              </p>
+              <p class="text-5xl">
                 37%
-                <p class="text-lg max-w-sm z-10">Incrementan las visitas, interacciones o ventas  luego de cambiar una pagina rustica por una  atractiva</p>
-              </h3>
-              <div class="grid col-span-2 justify-center">
+                <p class="text-lg max-w-sm">Incrementan las visitas, interacciones o ventas  luego de cambiar una pagina rustica por una  atractiva</p>
+              </p>
+              <div class="justify-center tablet:col-span-2">
                 <img class="w-screen" src="/mundo.jpg"/>
               </div>
           </div>

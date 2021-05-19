@@ -2,6 +2,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 export default function Home() {
+  const handleClick = (e) => {
+    if (e === "hablemos") {
+      return (
+        <span>
+          hablemos
+        </span>
+      )
+    }
+  }
   return (
     <div>
       <Head>
@@ -16,7 +25,11 @@ export default function Home() {
           <p class="p-2 flex justify-center text-center">Somos un equipo chico de programadores que nos especializamos en crear Landing Pages dinamicas, completas e informativas.</p>
           <p class="p-2 flex justify-center text-center">Cree su Landing Page ahora y comienze a ver resultados</p>
           <div  class="flex justify-center p-4">
-            <button class="bg-fluoyellow p-2 w-32 h-14 rounded-lg text-black font-semibold">Hablemos</button>
+          <a href='mailto:simonlanza99@gmail.com' >
+            <button class="bg-fluoyellow p-2 w-32 h-14 rounded-lg     text-black font-semibold">
+              Hablemos
+            </button> 
+          </a>
           </div>
         </div>
         <div>
